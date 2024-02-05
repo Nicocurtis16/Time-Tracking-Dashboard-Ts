@@ -86,7 +86,7 @@ body {
 #title i {
   /* padding-left: 8rem; */
   transition: 0.2s;
-  color: #7078c9;
+  color: #bbc0ff;
   cursor: pointer;
   font-size: 1.5rem;
 }
@@ -120,6 +120,7 @@ body {
   background-image: url(images/icon-work.svg);
   background-repeat: no-repeat;
   background-position: 10rem -0.7rem;
+  /* border: 2px solid rgb(64, 0, 255); */
 }
 .inbox1 {
   width: 15.9375rem;
@@ -129,6 +130,7 @@ body {
   margin-top: 2.8125rem;
   background-repeat: no-repeat;
   background-position: 12.5rem 1.8125rem;
+  cursor: pointer;
 }
 .inbox1:hover {
   background-color: #33397a;
@@ -140,19 +142,20 @@ body {
 #title {
   width: 80%;
   color: #ffffff;
-  padding-top: 1.8125rem;
   padding-left: 1.8125rem;
   font-size: 18px;
-  font-weight: 500px;
+  font-weight: 500;
   display: flex;
   justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-top: -170px;
 }
 #hour {
   color: #ffffff;
   font-size: 56px;
   font-weight: 300px;
   padding-left: 1.8125rem;
-  padding-top: 1rem;
+  padding-top: 5rem;
 }
 #status {
   color: #bbc0ff;
